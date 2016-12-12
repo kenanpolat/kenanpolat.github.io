@@ -23,12 +23,9 @@ body {
 
 #coming h2 {
     font-family: "loveloblack", "Helvetica", sans-serif;
-    color: #f8f5e2;
+    color: #1abc9c;
     font-size: 5em;
     text-transform: lowercase;
     text-align: center;
 }
 
-#logo h1 span {
-    color: #1abc9c;
-}
