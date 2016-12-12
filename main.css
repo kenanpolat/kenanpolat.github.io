@@ -3,6 +3,7 @@
     src: url('/assets/fonts/Lovelo_Line_Bold.otf');
 }
 
+
 body {
     background: #DA513D;
     color: #f8f5e2;
@@ -13,7 +14,20 @@ body {
     font-size: 100%;
 }
 
-#logo h1 {
+.logo {
+
+    margin: 25% auto 0 auto;
+}
+
+.logo h1 {
+     font-family: "loveloblack", "Helvetica", sans-serif;
+    color: #f8f5e2;
+    text-transform: lowercase;
+    font-size: 5em;
+    text-align: center;
+}
+
+.logo h2 {
     font-family: "loveloblack", "Helvetica", sans-serif;
     color: #f8f5e2;
     text-transform: uppercase;
@@ -21,11 +35,20 @@ body {
     text-align: center;
 }
 
-#coming h2 {
-    font-family: "loveloblack", "Helvetica", sans-serif;
+.logo h1 h2 span {
     color: #1abc9c;
-    font-size: 5em;
-    text-transform: lowercase;
-    text-align: center;
 }
 
+::selection {
+    background: #1abc9c;
+}
+
+::-moz-selection {
+    background: #1abc9c;
+}
+
+@media (max-width: 768px){
+	.logo h1 h2 {
+       font-size: 3em;
+	}
+}
