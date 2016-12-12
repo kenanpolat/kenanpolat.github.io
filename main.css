@@ -32,10 +32,3 @@ body {
 #logo h1 span {
     color: #1abc9c;
 }
-
-@media (max-width: 768px){
-	.container {
-       font-size: 3em;
-
-	}
-}
