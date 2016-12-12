@@ -13,7 +13,7 @@ body {
     font-size: 100%;
 }
 
-#logo {
+.container {
 
     margin: 25% auto 0 auto;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 @media (max-width: 768px){
-	#logo h1 {
+	.container {
        font-size: 3em;
 
 	}
